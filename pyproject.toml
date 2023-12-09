@@ -75,7 +75,7 @@ pyOpenSSL = [
     { version = "22.0.0", markers = "platform_machine != 's390x' and platform_machine != 'ppc64le'" },
 ]
 pyparsing = "2.4.0"
-service_identity = "18.1.0"
+service_identity = "23.1.0"
 twisted = "23.10.0"
 'zope.interface' = "5.0.0"
 ldaptor = "19.0.0"
