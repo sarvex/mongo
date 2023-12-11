@@ -119,7 +119,7 @@ ninja = [
 ]
 
 [tool.poetry.group.testing.dependencies]
-curatorbin = "1.2.3"
+curatorbin = "1.2.4"
 PyKMIP = "0.10.0"
 evergreen-py = "^3.6.16"
 jinja2 = "^3"
