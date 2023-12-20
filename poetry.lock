@@ -554,13 +554,13 @@ test = ["hypothesis (>=1.11.4,!=3.79.2)", "iso8601", "pretend", "pytest (>=6.2.0
 
 [[package]]
 name = "curatorbin"
-version = "1.2.3"
+version = "1.2.4"
 description = "install curator through pip and run it through python"
 optional = false
 python-versions = "*"
 files = [
-    {file = "curatorbin-1.2.3-py3-none-any.whl", hash = "sha256:1a38633de786c630490db7391eb9f2710d66cd9faeabc8d32b048a3b3bce3bb8"},
-    {file = "curatorbin-1.2.3.tar.gz", hash = "sha256:f0b88cfa28ab7d719b5dedbe9876944af5605a321b990c95eb33fffea5e4086c"},
+    {file = "curatorbin-1.2.4-py3-none-any.whl", hash = "sha256:7ca800232d98ef52931b2a864c46e7f4325cf028be21703a771ef350dc513465"},
+    {file = "curatorbin-1.2.4.tar.gz", hash = "sha256:2516fc98a1e1942c6bf7a11ed3b0c9c10154417f9cbb5432421183290c41d457"},
 ]
 
 [[package]]
@@ -4221,4 +4221,4 @@ libdeps = ["cxxfilt", "eventlet", "flask", "flask-cors", "gevent", "lxml", "prog
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<4.0"
-content-hash = "b7b327e5ea2630abf8a67e2aa7d2f356a33cfbab60c097d4b58081ba6a2eb7e0"
+content-hash = "a79a5290c64e0fd0fa0453435e2f532ab2b8c4bfa48f5783fd3ce0a40088dbaa"
