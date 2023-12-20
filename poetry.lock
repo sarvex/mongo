@@ -1673,8 +1673,12 @@ description = ""
 optional = false
 python-versions = "*"
 files = [
+    {file = "mongo_ninja_python-1.11.1.6-cp39-cp39-win_amd64.whl", hash = "sha256:380ed49c9db3759a59dd3005106d8b5afbd6cdcda1b4e4df204183949577924c"},
+    {file = "mongo_ninja_python-1.11.1.6-py2.py3-none-macosx_11_0_arm64.whl", hash = "sha256:4d5bf5d3ecb7968c7474753ad85353fdd6005a6c3f32a3192a29cb496ea78c07"},
+    {file = "mongo_ninja_python-1.11.1.6-py2.py3-none-macosx_11_0_x86_64.whl", hash = "sha256:d30a3bb2bd17b85c228ef8f62e7c46e42e1d64073c267510bb810856a2c253b7"},
     {file = "mongo_ninja_python-1.11.1.6-py2.py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:0be71b6b84aaa8520f90aad6104da41cb88208d1c132080901770ea7b2307eda"},
     {file = "mongo_ninja_python-1.11.1.6-py2.py3-none-manylinux_2_24_aarch64.whl", hash = "sha256:c74cee08c776e22edaa558c99d144fa5cb1e6783605d9fedbf2a9a3647901f96"},
+    {file = "mongo_ninja_python-1.11.1.6-py2.py3-none-win_amd64.whl", hash = "sha256:e55793f3052d6fca48a155132dcf1890c5b3f6b2539344fd6fa6ea9778771a68"},
 ]
 
 [package.dependencies]
@@ -2098,20 +2102,22 @@ ptyprocess = ">=0.5"
 
 [[package]]
 name = "pipx"
-version = "1.2.0"
+version = "1.3.3"
 description = "Install and Run Python Applications in Isolated Environments"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "pipx-1.2.0-py3-none-any.whl", hash = "sha256:a94c4bca865cd6e85b37cd6717a22481744890fe36b70db081a78d1feb923ce0"},
-    {file = "pipx-1.2.0.tar.gz", hash = "sha256:d1908041d24d525cafebeb177efb686133d719499cb55c54f596c95add579286"},
+    {file = "pipx-1.3.3-py3-none-any.whl", hash = "sha256:ce119a15f04da670d44ff1c493c7f9510639f610c720f0381abfed8aac5cef81"},
+    {file = "pipx-1.3.3.tar.gz", hash = "sha256:6d5474e71e78c28d83570443e5418c56599aa8319a950ccf5984c5cb0a35f0a7"},
 ]
 
 [package.dependencies]
 argcomplete = ">=1.9.4"
 colorama = {version = ">=0.4.4", markers = "sys_platform == \"win32\""}
-packaging = ">=20.0"
-userpath = ">=1.6.0"
+packaging = ">=20"
+platformdirs = ">=2.1"
+tomli = {version = "*", markers = "python_version < \"3.11\""}
+userpath = ">=1.6,<1.9.0 || >1.9.0"
 
 [[package]]
 name = "pkce"
@@ -4221,4 +4227,4 @@ libdeps = ["cxxfilt", "eventlet", "flask", "flask-cors", "gevent", "lxml", "prog
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<4.0"
-content-hash = "a79a5290c64e0fd0fa0453435e2f532ab2b8c4bfa48f5783fd3ce0a40088dbaa"
+content-hash = "5c664b38e461a6a0c6b92533b4844537200dcdce64634cad9f4d26849f54a7d1"
