@@ -2195,17 +2195,20 @@ files = [
 
 [[package]]
 name = "proxy-protocol"
-version = "0.7.5"
+version = "0.11.1"
 description = "PROXY protocol library with asyncio server implementation"
 optional = false
-python-versions = "~=3.7"
+python-versions = "~=3.8"
 files = [
-    {file = "proxy-protocol-0.7.5.tar.gz", hash = "sha256:84bda89d65d31df2dd7088582dab3490a4bbbf7a44d1411c070c862319208cbf"},
-    {file = "proxy_protocol-0.7.5-py3-none-any.whl", hash = "sha256:e7691d766a15674e1bf36f822ec0e0149850f333aa9902633f7fa351106994ac"},
+    {file = "proxy_protocol-0.11.1-py3-none-any.whl", hash = "sha256:e4d31df76873686141f85e63827bb3051093e361fd05cf3e457889bbf7d7d0c2"},
+    {file = "proxy_protocol-0.11.1.tar.gz", hash = "sha256:e53fc72e0dbbf6e2795f546d8fd4859dea7133d5fa3e05f1713bbbcf8e57b035"},
 ]
 
 [package.dependencies]
 typing-extensions = "*"
+
+[package.extras]
+crc32c = ["crc32c (>=2.2,<3.0)"]
 
 [[package]]
 name = "psutil"
@@ -4150,4 +4153,4 @@ libdeps = ["cxxfilt", "eventlet", "flask", "flask-cors", "gevent", "lxml", "prog
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<4.0"
-content-hash = "499b06a39044e9acd5bca382710e2392c17070bc3279e6793087b0052d48ece7"
+content-hash = "386933275c3637951a2dc515dc9c83c985ea0c1da37f36b282869b52a94edf72"
