@@ -44,7 +44,7 @@ tabulate = "^0.9.0"
 cheetah3 = "<=3.2.6.post1" # src/mongo/base/generate_error_codes.py
 packaging = "<=23.2"
 regex = "<=2023.12.25"
-setuptools = "58.1.0"
+setuptools = "65.5.1"
 
 [tool.poetry.group.core.dependencies]
 psutil = "5.9.7"
