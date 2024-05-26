@@ -2198,17 +2198,22 @@ files = [
 
 [[package]]
 name = "proxy-protocol"
-version = "0.7.5"
+version = "0.11.3"
 description = "PROXY protocol library with asyncio server implementation"
 optional = false
-python-versions = "~=3.7"
+python-versions = "~=3.8"
 files = [
-    {file = "proxy-protocol-0.7.5.tar.gz", hash = "sha256:84bda89d65d31df2dd7088582dab3490a4bbbf7a44d1411c070c862319208cbf"},
-    {file = "proxy_protocol-0.7.5-py3-none-any.whl", hash = "sha256:e7691d766a15674e1bf36f822ec0e0149850f333aa9902633f7fa351106994ac"},
+    {file = "proxy_protocol-0.11.3-py3-none-any.whl", hash = "sha256:77d541828aed30c5d9eea9c4c9af1dd85c2c4a2f829e0ecb003cb978f738a3f1"},
+    {file = "proxy_protocol-0.11.3.tar.gz", hash = "sha256:a9a1bd7bd90bfa82444a6bfc7cf567fa0a4d4144c9cadf392b8736ba651a662c"},
 ]
 
 [package.dependencies]
 typing-extensions = "*"
+
+[package.extras]
+crc32c = ["crc32c (>=2.2,<3.0)"]
+dev = ["autopep8", "mypy", "pycodestyle", "pytest", "pytest-cov", "ruff"]
+doc = ["cloud-sptheme", "sphinx", "sphinx-autodoc-typehints"]
 
 [[package]]
 name = "psutil"
@@ -4153,4 +4158,4 @@ libdeps = ["cxxfilt", "eventlet", "flask", "flask-cors", "gevent", "lxml", "prog
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<4.0"
-content-hash = "5f74f2822fc07fddd7824a6701303cd4bf483bee3a29b1535c09ff49a3d02cba"
+content-hash = "202e95fb1d17b7d85bd7ab71240ba2f3fee4b517b757d3b2b685f64939f12fec"
