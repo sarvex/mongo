@@ -74,7 +74,7 @@ pyOpenSSL = [
     { version = "19.0.0", markers = "platform_machine == 's390x' or platform_machine == 'ppc64le'" },  # Needed for pinned cryptography package - see SERVER-70845
     { version = "22.0.0", markers = "platform_machine != 's390x' and platform_machine != 'ppc64le'" },
 ]
-pyparsing = "3.1.1"
+pyparsing = "3.1.2"
 service_identity = "24.1.0"
 twisted = "23.10.0"
 'zope.interface' = "5.0.0"
