@@ -6,10 +6,10 @@
   "homepage": "https://grpc.io",
   "license": "Apache-2.0",
   "require": {
-    "php": ">=7.0.0"
+    "php": "8.3.7"
   },
   "require-dev": {
-    "google/auth": "^v1.3.0"
+    "google/auth": "1.40.0"
   },
   "suggest": {
     "ext-protobuf": "For better performance, install the protobuf C extension.",

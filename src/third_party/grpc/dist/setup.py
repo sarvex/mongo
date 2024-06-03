@@ -469,17 +469,17 @@ PACKAGE_DIRECTORIES = {
 }
 
 INSTALL_REQUIRES = (
-    "six>=1.5.2",
-    "futures>=2.2.0; python_version<'3.2'",
-    "enum34>=1.0.4; python_version<'3.4'",
+    "six==1.16.0",
+    "futures==3.4.0; python_version<'3.2'",
+    "enum34==1.1.10; python_version<'3.4'",
 )
 EXTRAS_REQUIRES = {
     'protobuf': 'grpcio-tools>={version}'.format(version=grpc_version.VERSION),
 }
 
 SETUP_REQUIRES = INSTALL_REQUIRES + (
-    'Sphinx~=1.8.1',
-    'six>=1.10',
+    'Sphinx==1.8.6',
+    'six==1.16.0',
 ) if ENABLE_DOCUMENTATION_BUILD else ()
 
 try:
@@ -493,7 +493,7 @@ except ImportError:
     elif need_cython:
         sys.stderr.write(
             'We could not find Cython. Setup may take 10-20 minutes.\n')
-        SETUP_REQUIRES += ('cython>=0.23',)
+        SETUP_REQUIRES += ('cython==3.0.10',)
 
 COMMAND_CLASS = {
     'doc': commands.SphinxDocumentation,
