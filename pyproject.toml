@@ -93,7 +93,7 @@ PyJWT = "==2.8.0"          # https://github.com/pycontribs/jira/issues/247
 [tool.poetry.group.lint.dependencies]
 # Note: These versions are checked by python modules in buildscripts/linter/
 GitPython = "3.1.41"
-mypy = "1.7.1"
+mypy = "1.10.0"
 pydocstyle = "6.3.0"
 pylint = "3.0.3"
 structlog = "24.1.0"
