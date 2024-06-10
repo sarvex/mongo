@@ -2063,13 +2063,13 @@ ptyprocess = ">=0.5"
 
 [[package]]
 name = "pipx"
-version = "1.3.3"
+version = "1.6.0"
 description = "Install and Run Python Applications in Isolated Environments"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pipx-1.3.3-py3-none-any.whl", hash = "sha256:ce119a15f04da670d44ff1c493c7f9510639f610c720f0381abfed8aac5cef81"},
-    {file = "pipx-1.3.3.tar.gz", hash = "sha256:6d5474e71e78c28d83570443e5418c56599aa8319a950ccf5984c5cb0a35f0a7"},
+    {file = "pipx-1.6.0-py3-none-any.whl", hash = "sha256:760889dc3aeed7bf4024973bf22ca0c2a891003f52389159ab5cb0c57d9ebff4"},
+    {file = "pipx-1.6.0.tar.gz", hash = "sha256:840610e00103e3d49ae24b6b51804b60988851a5dd65468adb71e5a97e2699b2"},
 ]
 
 [package.dependencies]
@@ -2077,7 +2077,7 @@ argcomplete = ">=1.9.4"
 colorama = {version = ">=0.4.4", markers = "sys_platform == \"win32\""}
 packaging = ">=20"
 platformdirs = ">=2.1"
-userpath = ">=1.6,<1.9.0 || >1.9.0"
+userpath = ">=1.6,<1.9 || >1.9"
 
 [[package]]
 name = "pkce"
@@ -4171,4 +4171,4 @@ libdeps = ["cxxfilt", "eventlet", "flask", "flask-cors", "gevent", "lxml", "prog
 [metadata]
 lock-version = "2.0"
 python-versions = "==3.12.3"
-content-hash = "aecf7baa60b0679f6902f65d974366ab12804b21c560fb95ed3b5b971afec8be"
+content-hash = "aeb78d8e879290cabea02d4bed9df1e1d8f296b5fbc09574e09cbe9ee2e42685"
