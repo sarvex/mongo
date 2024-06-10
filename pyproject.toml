@@ -152,7 +152,7 @@ gdbmongo = "0.14.0"
 googleapis-common-protos = "1.62.0"
 opentelemetry-api = "1.22.0"
 opentelemetry-sdk = "1.22.0"
-opentelemetry-exporter-otlp-proto-common = "1.20.0"
+opentelemetry-exporter-otlp-proto-common = "1.25.0"
 
 [tool.poetry.group.tooling-metrics.dependencies]
 mongo-tooling-metrics = "1.0.8"

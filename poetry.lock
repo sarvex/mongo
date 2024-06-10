@@ -73,17 +73,6 @@ six = "*"
 visualize = ["Twisted (>=16.1.1)", "graphviz (>0.5.1)"]
 
 [[package]]
-name = "backoff"
-version = "2.2.1"
-description = "Function decoration for backoff and retry"
-optional = false
-python-versions = ">=3.7,<4.0"
-files = [
-    {file = "backoff-2.2.1-py3-none-any.whl", hash = "sha256:63579f9a0628e06278f7e47b7d7d5b6ce20dc65c5e96a6f3ca99a6adca0396e8"},
-    {file = "backoff-2.2.1.tar.gz", hash = "sha256:03f829f5bb1923180821643f8753b0502c3b682293992485b0eef2807afa5cba"},
-]
-
-[[package]]
 name = "blackduck"
 version = "1.0.1"
 description = "Package for using the Synopsys Black Duck Hub REST API."
@@ -1926,28 +1915,27 @@ importlib-metadata = ">=6.0,<7.0"
 
 [[package]]
 name = "opentelemetry-exporter-otlp-proto-common"
-version = "1.20.0"
+version = "1.25.0"
 description = "OpenTelemetry Protobuf encoding"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "opentelemetry_exporter_otlp_proto_common-1.20.0-py3-none-any.whl", hash = "sha256:dd63209b40702636ab6ae76a06b401b646ad7b008a906ecb41222d4af24fbdef"},
-    {file = "opentelemetry_exporter_otlp_proto_common-1.20.0.tar.gz", hash = "sha256:df60c681bd61812e50b3a39a7a1afeeb6d4066117583249fcc262269374e7a49"},
+    {file = "opentelemetry_exporter_otlp_proto_common-1.25.0-py3-none-any.whl", hash = "sha256:15637b7d580c2675f70246563363775b4e6de947871e01d0f4e3881d1848d693"},
+    {file = "opentelemetry_exporter_otlp_proto_common-1.25.0.tar.gz", hash = "sha256:c93f4e30da4eee02bacd1e004eb82ce4da143a2f8e15b987a9f603e0a85407d3"},
 ]
 
 [package.dependencies]
-backoff = {version = ">=1.10.0,<3.0.0", markers = "python_version >= \"3.7\""}
-opentelemetry-proto = "1.20.0"
+opentelemetry-proto = "1.25.0"
 
 [[package]]
 name = "opentelemetry-proto"
-version = "1.20.0"
+version = "1.25.0"
 description = "OpenTelemetry Python Proto"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "opentelemetry_proto-1.20.0-py3-none-any.whl", hash = "sha256:512c3d2c6864fb7547a69577c3907348e6c985b7a204533563cb4c4c5046203b"},
-    {file = "opentelemetry_proto-1.20.0.tar.gz", hash = "sha256:cf01f49b3072ee57468bccb1a4f93bdb55411f4512d0ac3f97c5c04c0040b5a2"},
+    {file = "opentelemetry_proto-1.25.0-py3-none-any.whl", hash = "sha256:f07e3341c78d835d9b86665903b199893befa5e98866f63d22b00d0b7ca4972f"},
+    {file = "opentelemetry_proto-1.25.0.tar.gz", hash = "sha256:35b6ef9dc4a9f7853ecc5006738ad40443701e52c26099e197895cbda8b815a3"},
 ]
 
 [package.dependencies]
@@ -4171,4 +4159,4 @@ libdeps = ["cxxfilt", "eventlet", "flask", "flask-cors", "gevent", "lxml", "prog
 [metadata]
 lock-version = "2.0"
 python-versions = "==3.12.3"
-content-hash = "aecf7baa60b0679f6902f65d974366ab12804b21c560fb95ed3b5b971afec8be"
+content-hash = "f6bb117584e73af0f862f1f9aec7abdd3aea53224a020887afa2c7f0ce1e6a4d"
